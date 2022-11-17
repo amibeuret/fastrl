@@ -1,0 +1,9 @@
+ImageCentering:
+  n_steps: 20480
+  batch_size: 512
+  gae_lambda: 0.95
+  gamma: 0.99
+  n_epochs: 10
+  ent_coef: 0.01
+  learning_rate: !!float 0.0005
+  clip_range: 0.2
