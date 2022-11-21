@@ -3,8 +3,8 @@ Ivan Ovinnikov, Ami Beuret, Flavia Cavaliere, Joachim M. Buhmann
 
 
 <p align="center">
-  <a href="https://github.com/amibeuret/fast.github.io">View on ArXiv</a> |
-  <a href="https://amibeuret.github.io/fast.github.io/">Project Website</a>
+  <a href="https://github.com/amibeuret/fastrl">View on ArXiv</a> |
+  <a href="https://amibeuret.github.io/fastrl/">Project Website</a>
 </p>
 
 
