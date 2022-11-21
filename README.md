@@ -14,7 +14,7 @@ If you find this repository is useful in your research, please cite the paper:
 ```
 @InProceedings{2022fast,
   title = {Fundamentals of Arthroscopic Surgery Training: a reinforcement learning exploration and benchmark},
-  author = {Ivan Ovinnikov, Ami Beuret, Flavia Cavaliere},
+  author = {Ivan Ovinnikov, Ami Beuret, Flavia Cavaliere, Joachim Buhmann},
   booktitle = {},
   year = {2022}
 }
