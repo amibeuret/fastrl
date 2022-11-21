@@ -71,9 +71,9 @@ Below is a list of all the binary files provided:
 
 | Task              | MacOs   |  Linux | Windows |  Description |
 |-------------------|---------|--------|---------|--------------|
-| *ImageCentering*  | FAST_IC | ic     |   -     | Default binaries for *ImageCentering* task |
-|  *Periscoping*    | FAST_PE | pe     |   -     | Default binaries for *Periscoping* task |
-|  *TraceLines*     | FAST_TL | tl     |   -     | Default binaries for *TraceLines* task |
+| *ImageCentering*  | FAST_IC | [ic](https://drive.google.com/drive/folders/1DGZSHHpII14qrjQt-IHKquH8eP-A3Ozg?usp=sharing)     |   -     | Default binaries for *ImageCentering* task |
+|  *Periscoping*    | FAST_PE | [pe](https://drive.google.com/drive/folders/1s6DIXjGKCVahiO5vzL31rpUn46D-zDDk?usp=sharing)     |   -     | Default binaries for *Periscoping* task |
+|  *TraceLines*     | FAST_TL | [tl](https://drive.google.com/drive/folders/1RPMWU61Y9k17VPrtL0h_uiJ_fpZAA79K?usp=sharing)     |   -     | Default binaries for *TraceLines* task |
 
 
 ## Configurable parameters
