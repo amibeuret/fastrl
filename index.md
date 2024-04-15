@@ -71,12 +71,12 @@ Below is a list of all the binary files provided:
 
 | Task              | MacOs   |  Linux | Windows |  Description |
 |-------------------|---------|--------|---------|--------------|
-| *ImageCentering*  | [FAST_IC](https://drive.google.com/drive/folders/1AVys7krk6TV577eGdHrVzQrZv898qZqT?usp=sharing) | [ic](https://drive.google.com/drive/folders/1qYEyVTuasccYXwZChQTnkvMfg29GkLQz?usp=sharing)     |   -     | Default binaries for *ImageCentering* task |
-|  *Periscoping*    | [FAST_PE](https://drive.google.com/drive/folders/1ThGH0jCuxIpmVdOr6ep5eNXbQENg3FOR?usp=sharing) | [pe](https://drive.google.com/drive/folders/1m_kCAKGNnCHT9XzjdzbXf0mMNvQKj5Du?usp=sharing)     |   -     | Default binaries for *Periscoping* task |
-|  *TraceLines*     | [FAST_TL](https://drive.google.com/drive/folders/1ThGH0jCuxIpmVdOr6ep5eNXbQENg3FOR?usp=sharing) | [tl](https://drive.google.com/drive/folders/14Uw91L6ZqIqzbyR_D0wYG1AyL1XxbLKB?usp=sharing)     |   -     | Default binaries for *TraceLines* task |
+| *ImageCentering*  | [FAST_IC](https://drive.google.com/drive/folders/1zQ0y8LPhfq_dP6ZuagF1bR70CXYqd9f-?usp=sharing) | [ic](https://drive.google.com/drive/folders/1KENuliQikWPrcaznLJp5D1o_gWGHSk46?usp=sharing)     |   -     | Default binaries for *ImageCentering* task |
+|  *Periscoping*    | [FAST_PE](https://drive.google.com/drive/folders/18Lr1gaUzFYeJ9KxPLlZzlh-igAr-sFsn?usp=sharing) | [pe](https://drive.google.com/drive/folders/1NWxVbIhgrGcvObtwo2FqUORVzY17fJ4p?usp=sharing)     |   -     | Default binaries for *Periscoping* task |
+|  *TraceLines*     | [FAST_TL](https://drive.google.com/drive/folders/1KENuliQikWPrcaznLJp5D1o_gWGHSk46?usp=sharing) | [tl](https://drive.google.com/drive/folders/1azLKgbC7q5dnswCu0cIZ5kFCnU_6zxNV?usp=sharing)     |   -     | Default binaries for *TraceLines* task |
 
 * Please note that the MacOs and Windows binaries are visualised, whereas Linux binaries are headless without visualisation.
-* Please note that in order to make the action space configurable (changing between discrete and continuous case) we provide environments with both continuous and discrete action space at the same time. During the training however, depending on selected action space, only one action space is applied and therefore learned.
+* Please note that currently, provided binaries contain environments with discrete action space.
 
 
 ## Configurable parameters
@@ -96,7 +96,7 @@ The following table illustrates the configurable parameters pertaining to the ag
 | [`maxStep`](https://docs.unity3d.com/Packages/com.unity.ml-agents@1.0/api/Unity.MLAgents.Agent.html#Unity_MLAgents_Agent_MaxStep)    | int      | the maximum amount of steps the agent can take to complete a task before the episode is reset (from ML-Agents Agent class) |
 | `timeScale`  | int      | Defines the multiplier for the deltatime in the simulation. If set to a higher value, time will pass faster in the simulation but the physics may perform unpredictably. Default 20 |
 | `rewardWeights` | Dictionary<string, float> | the weights used to calculate the reward for a particular action; this list varies between tasks, see lists below |
-| `actionSpaceForce` | bool | Wehther to use the default Force and Torque action space. If False, a discrete action space of size 11 is used.|
+| `actionSpaceForce` | bool | Wehther to use the default Force and Torque action space. If False, a discrete action space of size 11 is used. Current binaries only accept discrete action space.|
 | `newStateSpec` | bool | Whether to use the new larger state space which is exactly the same across all tasks. Otherwise a legacy state space is used which is not unirform across tasks.|
 | `stackSize` | int | Stack size number to use in ML-Agents. Default is 1|
 | `goalConditioning` | bool | Whether to include the target's positions in the state space|
